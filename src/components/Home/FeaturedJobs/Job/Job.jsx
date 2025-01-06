@@ -1,7 +1,10 @@
 import React from 'react';
+import { MdLocationOn } from "react-icons/md";
+import { Link } from 'react-router-dom';
+
 
 const Job = ({ job }) => {
-    const { job_title,logo,company_name,remote_or_onsite,location,job_type} = job;
+    const { id, job_title, logo, company_name, remote_or_onsite, location, job_type } = job;
     return (
         <div>
             <div className="card card-compact bg-base-100 shadow-xl">
@@ -17,8 +20,13 @@ const Job = ({ job }) => {
                         <button className='px-5 py-2 font-extrabold border rounded border-blue-500'>{remote_or_onsite}</button>
                         <button className='px-5 py-2 font-extrabold border rounded border-blue-500'>{job_type}</button>
                     </div>
+                    <div>
+                        <h2 className='flex gap-1'><MdLocationOn className='text-2xl'></MdLocationOn>{location}</h2>
+                    </div>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <Link to={`/job/${id}`}>
+                            <button className="btn btn-primary">View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
