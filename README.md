@@ -1,8 +1,74 @@
-# React + Vite
+# 🚀 React Career Hub - Job Portal Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Career Hub is a modern job portal frontend application built with React and Vite. It allows users to explore job listings, view applied jobs, read career blogs, and check job statistics — all with a clean and responsive UI powered by TailwindCSS and DaisyUI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+
+🌐 [https://react-career-pua8-mu.vercel.app/]
+
+---
+
+## ✨ Features
+
+- 💼 Browse featured job listings with company logos and details  
+- 📋 View applied jobs (UI-only, no backend)  
+- 📊 Visualize job statistics using Recharts charts  
+- 📰 Read career-related blogs with detailed pages  
+- 🔄 Smooth multi-page navigation with React Router v6  
+- 📱 Fully responsive design for desktop and mobile  
+- 🧹 Clean and maintainable codebase with ESLint
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/12usama/react-career.git
+cd react-career
+npm install
+npm run dev
+```
+Open your browser and visit:
+http://localhost:5173
+---
+
+## ⚙️ Environment Variables
+No backend or sensitive environment variables are required for this frontend-only project.
+
+---
+## 🛠 Tech Stack
+| Technology      | Purpose                        |
+| --------------- | ------------------------------ |
+| React 18        | Frontend framework             |
+| Vite            | Development build tool         |
+| Tailwind CSS    | Utility-first CSS styling      |
+| DaisyUI         | Tailwind CSS component library |
+| React Router v6 | Client-side routing            |
+| Recharts        | Data visualization (charts)    |
+| ESLint          | Code linting                   |
+---
+
+## 🗂 Project Structure
+src/
+├── assets/           # Images, icons, favicon, etc.
+├── components/       # Reusable React components organized by feature
+│   ├── Home/
+│   ├── Blogs/
+│   ├── AppliedJob/
+│   ├── Statistics/
+│   └── Shared/
+├── index.css         # Global styles
+├── main.jsx          # Entry point
+└── App.jsx           # Main app component (if used)
+---
+
+## 🙋‍♂️ Author
+Developed by Md. Usama Alam Ridwane
+
+🔗 LinkedIn
+
+🔗 GitHub
