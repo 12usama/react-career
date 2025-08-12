@@ -51,21 +51,6 @@ No backend or sensitive environment variables are required for this frontend-onl
 | Recharts        | Data visualization (charts)    |
 | ESLint          | Code linting                   |
 ---
-
-## 🗂 Project Structure
-src/
-├── assets/           # Images, icons, favicon, etc.
-├── components/       # Reusable React components organized by feature
-│   ├── Home/
-│   ├── Blogs/
-│   ├── AppliedJob/
-│   ├── Statistics/
-│   └── Shared/
-├── index.css         # Global styles
-├── main.jsx          # Entry point
-└── App.jsx           # Main app component (if used)
----
-
 ## 🙋‍♂️ Author
 Developed by Md. Usama Alam Ridwane
 
