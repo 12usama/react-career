@@ -54,6 +54,6 @@ No backend or sensitive environment variables are required for this frontend-onl
 ## 🙋‍♂️ Author
 Developed by Md. Usama Alam Ridwane
 
-🔗 LinkedIn
+🔗 LinkedIn (https://www.linkedin.com/in/md-usama-alam-ridwane-376b3a1a4/)
 
-🔗 GitHub
+
